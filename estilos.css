@@ -644,4 +644,33 @@ tbody tr:hover {
         font-size: 12px;
     }
 
+}/* Remove margens padrão da página */
+body {
+  margin: 0;
+  background-color: #0d131a; /* Fundo escuro similar à imagem */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Barra superior posicionada no topo esquerdo */
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+  padding: 20px 30px;
+}
+
+/* Alinha a imagem e o texto lado a lado */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+/* Define o tamanho e o formato circular da imagem */
+.logo-img {
+    width: 90px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
 }
